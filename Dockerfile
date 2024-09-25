@@ -1,4 +1,4 @@
 FROM httpd
 WORKDIR /
-COPY . /usr/local/apache2/htdocs/
+COPY Web.html /usr/local/apache2/htdocs/
 EXPOSE 80
